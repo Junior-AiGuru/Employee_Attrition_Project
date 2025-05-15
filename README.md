@@ -78,7 +78,7 @@ Successfully Completed Objectives:**
 
 -     GradientBoost
 
--     AdaBoost (Best Model)
+-     AdaBoost (Best Score)
 
     
 
