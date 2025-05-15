@@ -5,9 +5,9 @@
 > This project is intended to deliver an end-to-end solution for predicting employee attrition, providing HR teams with actionable insights to improve retention strategies.
 
 ## **Project Overview**
-**This project focuses on developing a machine learning solution to predict employee attrition, enabling HR teams to proactively address retention challenges. Below is a summary of completed milestones and key achievements.**
+> This project focuses on developing a machine learning solution to predict employee attrition, enabling HR teams to proactively address retention challenges. Below is a summary of completed milestones and key achievements.
 
-### **Completed Milestones**
+## **Completed Milestones**
 ### **Milestone 1:** 
 
 - Data Collection
@@ -32,6 +32,7 @@
 - [ ] - Performed comprehensive EDA with 10+ visualizations
 
 - [ ] - Implemented data cleaning pipeline handling missing values, Duplicated and outliers
+  <hr>
 
 ### **Milestone 2:** 
 **Advanced Data Analysis and Feature Engineering
@@ -53,6 +54,7 @@ Successfully Completed Objectives:**
 - [ ] Developed interactive dashboard with attrition risk segmentation
 
 - [ ] Established correlation matrix revealing key relationships
+  <hr>
 
 ### **Milestone 3:**
  **Machine Learning Model Development and Optimization**
@@ -82,11 +84,12 @@ Successfully Completed Objectives:**
 
     
 
-- [ ] Achieved 0.95 ROC-AUC and 95 Accuracy score on test set with best model
+- [ ] Achieved 0.95 ROC-AUC and 95% Accuracy score on test set with best model **(Accuracy: 97%, ROC_AUC: 96; After some improvements)**
 
 - [ ] Conducted comprehensive hyperparameter tuning with combinations
 
 - [ ] Addressed class imbalance using SMOTE technique
+  <hr>
 
 ### **Milestone 4:**
  **MLOps, Deployment, and Monitoring**
@@ -130,7 +133,31 @@ Successfully Completed Objectives:**
 
 - [ ]  Roadmap for future enhancements
 
-### ** Next Steps**
+## **Key Challenges:**
+-     High-Dimensional Feature Space :
+The dataset contained a high number of features(30+).
+This "Curse Of Dimensionality" risked:
+  
+- High computational complexity
+- Model overfitting
+ <hr>
+
+-     Unbalanced Data :
+The target variable (Attrition) showed severe imbalance (83:17), leading to :
+-  Biased model evaluation
+-  Models favoring the majority class
+-  Reduced sensitivity to attrition patterns
+  <hr>
+  
+-     Outlier Detection and Treatment :
+Few numerical features contained extreme outliers that threatened model integrity by:
+ 
+- Distorting feature scaling/normalization
+- Potentially representing data entry errors or rare edge cases
+
+  <hr>
+
+## **Next Steps:**
 
 - Expand feature set with employee engagement metrics
 
