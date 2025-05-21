@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/08259300fcae45559826b203e5ff7cad/artifacts
+end_time: 1747739732563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08259300fcae45559826b203e5ff7cad
+run_name: Random_Forest_Run
+run_uuid: 08259300fcae45559826b203e5ff7cad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747739710854
+status: 3
+tags: []
+user_id: ahmed
